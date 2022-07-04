@@ -3,3 +3,24 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* EXAMPLE 1 */
+
+.sandbox img {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.sandbox img:hover {
+  cursor: crosshair;
+}
+
+.grayscale {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
+
+.grayscale:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
