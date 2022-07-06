@@ -3,3 +3,18 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* Modern Layout 1 */
+.layout1 article {
+  width: 58%;
+  float: left;
+}
+
+.layout1 aside {
+  width: 40%;
+  float: right;
+}
+
+.layout1 footer {
+  clear: both;
+}
