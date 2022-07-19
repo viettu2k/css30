@@ -48,3 +48,29 @@
 .layout2 aside.sidebar {
   flex: 1 20%;
 }
+
+/* =========================
+      FLEXBOX LAYOUTS #3
+      ========================= */
+.layout3 header {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.layout3 header nav {
+  flex: 1;
+  margin-right: 2%;
+}
+
+.layout3 .articles {
+  display: flex;
+  flex-direction: row;
+}
+.layout3 article {
+  flex: 1;
+  margin: 0 2%;
+}
+.layout3 article:first-child,
+.layout3 article:last-child {
+  margin: 0;
+}
