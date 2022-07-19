@@ -3,3 +3,19 @@
     CODE YOUR STYLES BELOW!
 
    ====================================== */
+
+/* =========================
+   FLEXBOX LAYOUTS #1
+   ========================= */
+
+.layout1 main {
+  display: flex;
+  flex-direction: row;
+}
+.layout1 article {
+  flex: 1 58%;
+  margin-right: 2%;
+}
+.layout1 aside {
+  flex: 1 40%;
+}
