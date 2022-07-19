@@ -19,3 +19,32 @@
 .layout1 aside {
   flex: 1 40%;
 }
+
+/* =========================
+      FLEXBOX LAYOUTS #2
+      ========================= */
+
+.layout2 header {
+  display: flex;
+  flex-direction: row;
+}
+
+.layout2 header nav {
+  flex: 1;
+  margin-left: 2%;
+}
+
+.layout2 main {
+  display: flex;
+  flex-direction: row;
+}
+.layout2 article {
+  flex: 1 56%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.layout2 aside.sidenav,
+.layout2 aside.sidebar {
+  flex: 1 20%;
+}
